@@ -227,17 +227,17 @@ Map.add_legend(legend_title="Tingkat Kerapatan Vegetasi", legend_dict=legend_dic
 
 
 #Menambahkan file shp
-Pulau_Kalimantan_shp = 'Pulau_Kalimantan.shp'
-Pulau_Kalimantan = geemap.shp_to_ee(Pulau_Kalimantan_shp)
-Map.addLayer(Pulau_Kalimantan, {}, 'Batas Administrasi')
+#Pulau_Kalimantan_shp = 'Pulau_Kalimantan.shp'
+#Pulau_Kalimantan = geemap.shp_to_ee(Pulau_Kalimantan_shp)
+#Map.addLayer(Pulau_Kalimantan, {}, 'Batas Administrasi')
 
-Danau_Kalimantan_shp = 'Danau_Kalimantan.shp'
-Danau_Kalimantan = geemap.shp_to_ee(Danau_Kalimantan_shp)
-Map.addLayer(Danau_Kalimantan, {}, 'Danau Kalimantan')
+#Danau_Kalimantan_shp = 'Danau_Kalimantan.shp'
+#Danau_Kalimantan = geemap.shp_to_ee(Danau_Kalimantan_shp)
+#Map.addLayer(Danau_Kalimantan, {}, 'Danau Kalimantan')
 
-Tambang_Kalimantan_shp = 'Tambang_Kalimantan.shp'
-Tambang_Kalimantan = geemap.shp_to_ee(Tambang_Kalimantan_shp)
-Map.addLayer(Tambang_Kalimantan, {}, 'Tambang Kalimantan')
+#Tambang_Kalimantan_shp = 'Tambang_Kalimantan.shp'
+#Tambang_Kalimantan = geemap.shp_to_ee(Tambang_Kalimantan_shp)
+#Map.addLayer(Tambang_Kalimantan, {}, 'Tambang Kalimantan')
 
 
 # In[12]:
