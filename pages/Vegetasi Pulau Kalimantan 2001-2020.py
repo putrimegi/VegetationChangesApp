@@ -8,7 +8,7 @@ import ee
 import numpy as np
 import geemap
 import pandas as pd
-import pygal
+#import pygal
 import ipygee as ui
 
 service_account = 'vegetasi-kalimantan@kerja-praktik-356103.iam.gserviceaccount.com'
