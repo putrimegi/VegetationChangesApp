@@ -12,7 +12,7 @@ import pandas as pd
 #import ipygee as ui
 
 service_account = 'vegetasi-kalimantan@kerja-praktik-356103.iam.gserviceaccount.com'
-credentials = ee.ServiceAccountCredentials(service_account, '..\kerja-praktik-356103-394c75c599d1.json')
+credentials = ee.ServiceAccountCredentials(service_account, 'kerja-praktik-356103-394c75c599d1.json')
 ee.Initialize(credentials)
 # In[2]:
 
