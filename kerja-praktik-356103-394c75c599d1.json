@@ -9,5 +9,6 @@
   "token_uri": "https://oauth2.googleapis.com/token",
   "refresh_token": "1//0guMByi5PjWNgCgYIARAAGBASNwF-L9IrCu9VSn276HyTSPunhlDAry1WFmVex3C-sF3Vx4oi6bNlBIl5cVvHAUnle-Vasp7MfGc",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vegetasi-kalimantan%40kerja-praktik-356103.iam.gserviceaccount.com"
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vegetasi-kalimantan%40kerja-praktik-356103.iam.gserviceaccount.com",
+  "refresh_token": "1//0guMByi5PjWNgCgYIARAAGBASNwF-L9IrCu9VSn276HyTSPunhlDAry1WFmVex3C-sF3Vx4oi6bNlBIl5cVvHAUnle-Vasp7MfGc"
 }
