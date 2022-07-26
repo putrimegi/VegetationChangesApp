@@ -251,8 +251,8 @@ Map.add_legend(legend_title="Tingkat Kerapatan Vegetasi", legend_dict=legend_dic
 
 # In[13]:
 
-
-Map
+#Map.centerObject(study_area, 10)
+Map.to_streamlit()
 
 
 # In[ ]:
