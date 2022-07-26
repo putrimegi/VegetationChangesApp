@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "kp-putri-megi",
+  "private_key_id": "86d984e6c7876fa60a00c2228a7f5460fe13224d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDYe2Fdi/Z8OnI+\n+wzfUTq7nKmNj884oH6uxQYajqKkeRWV/u25XLZ8lmDOVu0ByRODst03DwOdLj+j\nlwk5iAwrQOMliH6a2SylPCBBScwzPfTvNzaOlcHxPhc6G1N/HRGK5y7JvwzCmDzv\npwsJv5GVK5WyToauHAipDNmZVPPSAo3wpixlNIliTn/rIoK6fkE6cr6AWpAztVdH\naRa1AKJx8hwD5K6Kl8LZlPCtKU2n8wTOjhI5/69q/irAymunF4onoFLGHu9m3Y5y\nebhez6VZVCGlSGJoqm1EweMvBE6eVi0D9YNqx0f10+C8hswi/X0UutMa4wJPSXQw\nEx9HKsnbAgMBAAECggEAHYF/jVUI1PjQXoYwRHXZV/3r3DgYKeMyMRb4lIERaPJ5\n/zY+Z4/b7ZI/gpA1gJNL/hzQavM4bmGB2gW5g6Zn5jNTYme+vdNQ8vqFePCajPdq\nXXp8jKWbyApK9ygHUuF+5RxKc8P+9Lz0PUPazMrYCGlm32U1lSCMC6KNPAlorBxd\nqNfoXWW3Vr8eZz0mgbuCPaCjdDQKFakg1D6tRq1MF8upnkHbIje8K83SGe0F2obX\nJ+LdeaAgKmlYQ+tm5qjAehGwIZD9r3d0r+VRpNRyrv+FwRTowJDy93kcVb6XrzLP\nFoykhCEK2bpPtGn4VVXLi6SDYEjnVQZuBBwDWVCsqQKBgQD+ISSOW2DJYmorn7Fm\nUmm9Tk6i/FXvskKx7AUG9Jq/vjFi1IAnp8k4IdM/f6ZcRQIfFqC/rXhSPgeI+m7r\n0+Z2SQf3WjI/zDjdOffluyYiFjBdj3+lCuFmVPLoGVbFDP15c/k3ALAScSKEjxGu\nmysTUkq4MWF9Z5xMr/Ql/nXU6QKBgQDaE0xVZHXMOU/tOavmDrDpDrjY7h2GE3Ju\naAA2LHTEMQta2uQmeUIOhW5THE/zKXWDcF0rcYdbChlVWNStJeX4xvXz9DJK2mu2\nhuebAdWTf9WaxQRteqALEOEVr0tWiAhKDpTvwDXgDFyaE0z/2/2p31MsRWxDzqY0\nBgROsaR+IwKBgQCYVVupbgMtlK3Z6ocXs+0oiik/MA1/epbaOoWk7rlYmPTXrlQH\n8V8AI96SoL0jcEZeRl0jqSOIASDZLm2RNdtfKlX5IvseHRg1HIuKDU5FfpGNc/hr\nAYOtqNxW3uGRi0DiLe/E1ce1tlWfqndJ+D+w/FJH6WnsF1Cs84hhwg/2CQKBgGUL\nGA1g9OvhilUiqbF5ESOLfL6W5fsfu5/IdIClbJ0TFG3OinQBL0hHLu03axwCE78J\nK0Jb4hmevko7VJ+9tablmUSl2z+voMT8EQhTe0BStQh3TSvk6471DTXc+Q1pDl4y\nD3RfHRdo4udJFh5fMlOpdIJI0HdCouPr/cbwrIT9AoGAVNudY4Wv1FQAluN5fgVg\n5dMbBNMX6wLcDx/pGYm8YrwI2j9AyRIfsy++FS42lQYXIbvK1z7iM4vcylwhhUwT\n3RVa8Z6o4GFHD56UqwmQY0x8J3ufqT85KqhDVzs0m4btvkMsD2Ux/Md9ZDFaWgaB\nFeg1hdpAWqcDjBwDMTvZtLA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "keygoogleearthengine@kp-putri-megi.iam.gserviceaccount.com",
+  "client_id": "104008504218902324237",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/keygoogleearthengine%40kp-putri-megi.iam.gserviceaccount.com"
+}
