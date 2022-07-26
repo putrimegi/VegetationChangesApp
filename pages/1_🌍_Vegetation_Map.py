@@ -30,7 +30,7 @@ st.markdown(
 
 #Menginisiasi map
 Map = geemap.Map()
-#Map.setCenter(114.0, 0.0)
+Map.setCenter(114.0, 0.0, 5)
 #Map.addLayerControl()
 
 #MEMILIH TAHUN
@@ -246,7 +246,7 @@ Map.add_legend(legend_title="Tingkat Kerapatan Vegetasi", legend_dict=legend_dic
 #     fading=False)
 #m.addLayer(timeseries,parameter,"MNDVI")
 
-Map.centerObject(study_area, 5)
+#Map.centerObject(study_area, 5)
 Map.to_streamlit()
 
 
