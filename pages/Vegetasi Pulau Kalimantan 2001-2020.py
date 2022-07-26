@@ -133,7 +133,7 @@ parameter = {'min':0, 'max':1, 'palette':['e81410',  'f0fc0a',  '30bf21', '198f0
 #Map.addLayer(mndvi_images,parameter,"MNDVI")
 
 #Menambahkan file shp
-pulau_Kalimantan_shp = '../SHP_Kalimantan/Pulau_Kalimantan.shp'
+pulau_Kalimantan_shp = 'SHP_Kalimantan/Pulau_Kalimantan.shp'
 Pulau_Kalimantan = geemap.shp_to_ee(pulau_Kalimantan_shp)
 Map.addLayer(Pulau_Kalimantan, {}, 'Batas Administrasi')
 
