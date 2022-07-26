@@ -130,7 +130,20 @@ mndvi_images = ee.ImageCollection([
 
 #Thumbnail
 parameter = {'min':0, 'max':1, 'palette':['e81410',  'f0fc0a',  '30bf21', '198f0d']}
-Map.addLayer(mndvi_images,parameter,"MNDVI")
+#Map.addLayer(mndvi_images,parameter,"MNDVI")
+
+#Menambahkan file shp
+Pulau_Kalimantan_shp = '\SHP_Kalimantan\Pulau_Kalimantan.shp'
+Pulau_Kalimantan = geemap.shp_to_ee(Pulau_Kalimantan_shp)
+Map.addLayer(Pulau_Kalimantan, {}, 'Batas Administrasi')
+
+Danau_Kalimantan_shp = '\SHP_Kalimantan\Danau_Kalimantan.shp'
+Danau_Kalimantan = geemap.shp_to_ee(Danau_Kalimantan_shp)
+Map.addLayer(Danau_Kalimantan, {}, 'Danau Kalimantan')
+
+Tambang_Kalimantan_shp = '\SHP_Kalimantan\Tambang_Kalimantan.shp'
+Tambang_Kalimantan = geemap.shp_to_ee(Tambang_Kalimantan_shp)
+Map.addLayer(Tambang_Kalimantan, {}, 'Tambang Kalimantan')
 
 
 # In[7]:
@@ -159,7 +172,7 @@ images = years.map(tresholdfunc)
 
 for index in range(0, 20):
     img = ee.Image(images.get(index))
-    image = img.clip(study_area)
+    image = img.clip(Pulau_Kalimantan)
     threshold1 = image.updateMask(image.gte(-1.00).And(image.lte(0.20)).selfMask())
     threshold2 = image.updateMask(image.gte(0.21).And(image.lte(0.40)).selfMask().multiply(2))
     threshold3 = image.updateMask(image.gte(0.41).And(image.lte(0.60)).selfMask().multiply(3))
@@ -222,35 +235,6 @@ Map.add_legend(legend_title="Tingkat Kerapatan Vegetasi", legend_dict=legend_dic
 #     mp4=False,
 #     fading=False)
 #m.addLayer(timeseries,parameter,"MNDVI")
-
-
-# In[11]:
-
-
-#Menambahkan file shp
-#Pulau_Kalimantan_shp = 'Pulau_Kalimantan.shp'
-#Pulau_Kalimantan = geemap.shp_to_ee(Pulau_Kalimantan_shp)
-#Map.addLayer(Pulau_Kalimantan, {}, 'Batas Administrasi')
-
-#Danau_Kalimantan_shp = 'Danau_Kalimantan.shp'
-#Danau_Kalimantan = geemap.shp_to_ee(Danau_Kalimantan_shp)
-#Map.addLayer(Danau_Kalimantan, {}, 'Danau Kalimantan')
-
-#Tambang_Kalimantan_shp = 'Tambang_Kalimantan.shp'
-#Tambang_Kalimantan = geemap.shp_to_ee(Tambang_Kalimantan_shp)
-#Map.addLayer(Tambang_Kalimantan, {}, 'Tambang Kalimantan')
-
-
-# In[12]:
-
-
-# veg2001 = '1.tif'
-# print(veg2001)
-
-# Map.add_raster(veg2001, parameter, layer_name="Clip Image")
-
-
-# In[13]:
 
 Map.centerObject(study_area, 5)
 Map.to_streamlit()
