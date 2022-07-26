@@ -19,3 +19,6 @@ with col1:
 with col3:
     st.header("Nama Angota 2")
     #st.image("https://static.streamlit.io/examples/dog.jpg")
+
+
+st.header("batas bawah")
