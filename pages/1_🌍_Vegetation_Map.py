@@ -18,6 +18,16 @@ ee.Initialize(credentials)
 
 st.header("Peta Persebaran Vegetasi Pulau Kalimantan")
 
+st.markdown(
+  """
+  Paragraf 1
+  
+  Paragraf 2
+  
+  Paragraf 3
+  """
+)
+
 #Menginisiasi map
 Map = geemap.Map()
 #Map.setCenter(114.0, 0.0)
