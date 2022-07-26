@@ -20,8 +20,8 @@ st.header("Peta Persebaran Vegetasi Pulau Kalimantan")
 
 #Menginisiasi map
 Map = geemap.Map()
-Map.setCenter(114.0, 0.0)
-Map.addLayerControl()
+#Map.setCenter(114.0, 0.0)
+#Map.addLayerControl()
 
 #MEMILIH TAHUN
 start_year = 2001
@@ -168,7 +168,7 @@ for index in range(0, 20):
     
     stack = ee.ImageCollection.fromImages([threshold1, threshold2, threshold3, threshold4])
     stacking = stack.mosaic()
-    Map.addLayer(stacking, parameter, layer_name)
+    Map.addLayer(stacking, parameter, layer_name, FALSE)
 
 
 # In[9]:
