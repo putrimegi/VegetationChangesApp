@@ -134,16 +134,13 @@ parameter = {'min':0, 'max':1, 'palette':['e81410',  'f0fc0a',  '30bf21', '198f0
 
 #Menambahkan file shp
 pulau_Kalimantan_shp = 'SHP_Kalimantan/Pulau_Kalimantan.shp'
+Danau_Kalimantan_shp = 'SHP_Kalimantan/Danau_Kalimantan.shp'
+Tambang_Kalimantan_shp = 'SHP_Kalimantan/Tambang_Kalimantan.shp'
+
+#Convert shp ke object ee
 Pulau_Kalimantan = geemap.shp_to_ee(pulau_Kalimantan_shp)
-Map.addLayer(Pulau_Kalimantan, {}, 'Batas Administrasi')
-
-# danau_Kalimantan_shp = 'Danau_Kalimantan.shp'
-# Danau_Kalimantan = geemap.shp_to_ee(danau_Kalimantan_shp)
-# Map.addLayer(Danau_Kalimantan, {}, 'Danau Kalimantan')
-
-# Tambang_Kalimantan_shp = 'Tambang_Kalimantan.shp'
-# Tambang_Kalimantan = geemap.shp_to_ee(Tambang_Kalimantan_shp)
-# Map.addLayer(Tambang_Kalimantan, {}, 'Tambang Kalimantan')
+Danau_Kalimantan = geemap.shp_to_ee(Danau_Kalimantan_shp)
+Tambang_Kalimantan = geemap.shp_to_ee(Tambang_Kalimantan_shp)
 
 
 # In[7]:
@@ -186,7 +183,10 @@ for index in range(0, 20):
 
 
 # In[9]:
-
+# Menambahkan layer shape
+Map.addLayer(Pulau_Kalimantan, {}, 'Batas Administrasi')
+Map.addLayer(Danau_Kalimantan, {}, 'Danau Kalimantan')
+Map.addLayer(Tambang_Kalimantan, {}, 'Tambang Kalimantan')
 
 #Menambahkan Legenda
 legend_dict = {
