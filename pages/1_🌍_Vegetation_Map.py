@@ -34,8 +34,8 @@ Map.setCenter(114.0, 0.0, 5)
 #Map.addLayerControl()
 
 #MEMILIH TAHUN
-start_year = 2001
-end_year = 2021
+start_year = 2000
+end_year = 2023
 study_area = ee.Geometry.Polygon([
           [108.47918130370147, 0.8398883418565013],
           [109.07244302245147, -1.071640184126184],
@@ -177,7 +177,7 @@ years = ee.List.sequence(start_year, end_year)
 year_list = years.getInfo()
 images = years.map(tresholdfunc)
 
-for index in range(0, 20):
+for index in range(0, 23):
     img = ee.Image(images.get(index))
     image = img.clip(Pulau_Kalimantan)
     threshold1 = image.updateMask(image.gte(-1.00).And(image.lte(0.20)).selfMask())
