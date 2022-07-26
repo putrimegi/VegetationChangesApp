@@ -158,7 +158,8 @@ year_list = years.getInfo()
 images = years.map(tresholdfunc)
 
 for index in range(0, 20):
-    image = ee.Image(images.get(index))
+    img = ee.Image(images.get(index))
+    image = img.clip(study_area)
     threshold1 = image.updateMask(image.gte(-1.00).And(image.lte(0.20)).selfMask())
     threshold2 = image.updateMask(image.gte(0.21).And(image.lte(0.40)).selfMask().multiply(2))
     threshold3 = image.updateMask(image.gte(0.41).And(image.lte(0.60)).selfMask().multiply(3))
@@ -168,7 +169,7 @@ for index in range(0, 20):
     
     stack = ee.ImageCollection.fromImages([threshold1, threshold2, threshold3, threshold4])
     stacking = stack.mosaic()
-    Map.addLayer(stacking, parameter, layer_name, False)
+    Map.addLayer(stacking, parameter, layer_name)
 
 
 # In[9]:
