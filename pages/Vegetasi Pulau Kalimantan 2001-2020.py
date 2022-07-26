@@ -133,15 +133,15 @@ parameter = {'min':0, 'max':1, 'palette':['e81410',  'f0fc0a',  '30bf21', '198f0
 #Map.addLayer(mndvi_images,parameter,"MNDVI")
 
 #Menambahkan file shp
-Pulau_Kalimantan_shp = '../SHP_Kalimantan/Pulau_Kalimantan.shp'
+Pulau_Kalimantan_shp = 'Pulau_Kalimantan.shp'
 Pulau_Kalimantan = geemap.shp_to_ee(Pulau_Kalimantan_shp)
 Map.addLayer(Pulau_Kalimantan, {}, 'Batas Administrasi')
 
-Danau_Kalimantan_shp = '../SHP_Kalimantan/Danau_Kalimantan.shp'
+Danau_Kalimantan_shp = 'Danau_Kalimantan.shp'
 Danau_Kalimantan = geemap.shp_to_ee(Danau_Kalimantan_shp)
 Map.addLayer(Danau_Kalimantan, {}, 'Danau Kalimantan')
 
-Tambang_Kalimantan_shp = '../SHP_Kalimantan/Tambang_Kalimantan.shp'
+Tambang_Kalimantan_shp = 'Tambang_Kalimantan.shp'
 Tambang_Kalimantan = geemap.shp_to_ee(Tambang_Kalimantan_shp)
 Map.addLayer(Tambang_Kalimantan, {}, 'Tambang Kalimantan')
 
