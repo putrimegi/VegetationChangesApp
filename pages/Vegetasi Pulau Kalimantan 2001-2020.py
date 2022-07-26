@@ -20,7 +20,7 @@ st.header("Peta Persebaran Vegetasi Pulau Kalimantan")
 
 #Menginisiasi map
 Map = geemap.Map()
-Map.setCenter(114.0, 0.0, 6)
+Map.setCenter(114.0, 0.0)
 Map.addLayerControl()
 
 #MEMILIH TAHUN
@@ -251,11 +251,8 @@ Map.add_legend(legend_title="Tingkat Kerapatan Vegetasi", legend_dict=legend_dic
 
 # In[13]:
 
-Map.centerObject(study_area, 10)
+Map.centerObject(study_area, 5)
 Map.to_streamlit()
-
-
-# In[ ]:
 
 
 
