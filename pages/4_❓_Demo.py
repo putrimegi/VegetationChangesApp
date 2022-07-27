@@ -3,10 +3,10 @@ import leafmap.foliumap as leafmap
 
 st.set_page_config(layout="wide")
 
-st.header("Demo")
+st.header("Demonstration")
 st.markdown(
 """
-This is demo for our app
+This is a demonstration of our app **How to use and load our vegetation maps** in [Kalimantan Island](https://id.wikipedia.org/wiki/Kalimantan) 
 """
 )
 
