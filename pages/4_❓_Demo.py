@@ -11,7 +11,7 @@ How to use and load our vegetation maps') in [Kalimantan Island](https://id.wiki
 """
 )
 
-st.header("Instructions")
+st.subheader("Instructions")
 st.markdown(
 """
 See this video bellow
