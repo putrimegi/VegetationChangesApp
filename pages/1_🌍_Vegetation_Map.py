@@ -32,7 +32,7 @@ Map.setCenter(114.0, 0.0, 5)
 
 #MEMILIH TAHUN
 start_year = 2000
-end_year = 2023
+end_year = 2022
 study_area = ee.Geometry.Polygon([
           [108.47918130370147, 0.8398883418565013],
           [109.07244302245147, -1.071640184126184],
