@@ -12,6 +12,10 @@ st.subheader("Graph of changes in the area of vegetation")
 st.markdown(
 """
 on Kalimantan island, Indonesia in 2000-2021
+"""
+)
+st.markdown(
+"""
 ("![](https://i.postimg.cc/CLc2jBVD/Area-of-Vegetation.jpg)
 
 """
