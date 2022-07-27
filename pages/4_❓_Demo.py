@@ -3,10 +3,18 @@ import leafmap.foliumap as leafmap
 
 st.set_page_config(layout="wide")
 
-st.header("Demonstration")
+st.title('Demo')
 st.markdown(
 """
-This is a demonstration of our app ('How to use and load our vegetation maps') in [Kalimantan Island](https://id.wikipedia.org/wiki/Kalimantan) 
+This is a demonstration of our web apps created using [streamlit](https://streamlit.io/) and [leafmapapp](https://leafmap.org/) 
+How to use and load our vegetation maps') in [Kalimantan Island](https://id.wikipedia.org/wiki/Kalimantan) 
+"""
+)
+
+st.header("Instructions")
+st.markdown(
+"""
+See this video bellow
 """
 )
 
