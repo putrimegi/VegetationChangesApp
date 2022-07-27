@@ -38,20 +38,13 @@ st.markdown(
 ![](https://i.postimg.cc/tRFQVtkM/7.jpg)
 """
 )
-st.markdown(
-"""
-"""
-)
 st.subheader("📍 PT. Adaro Indonesia (AI) (left) & PT.Kideco Jaya Agung (right)")
 st.markdown(
 """
 ![](https://i.postimg.cc/8PyyFj2Y/8.jpg)
 """
 )
-st.markdown(
-"""
-"""
-)
+
 st.subheader("📍 PT. Berau Coal")
 st.markdown(
 """
