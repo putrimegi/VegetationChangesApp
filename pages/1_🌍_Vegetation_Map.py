@@ -196,6 +196,7 @@ Map.addLayer(Danau_Kalimantan, {}, 'Danau Kalimantan')
 Map.addLayer(Tambang_Kalimantan, {}, 'Tambang Kalimantan')
 
 #Menambahkan Legenda
+add_legend = st.checkbox("Add a legend to the map", value=True)
 legend_dict = {
     'Non Vegetasi': 'e81410',
     'Vegetasi Jarang': 'f0fc0a',
