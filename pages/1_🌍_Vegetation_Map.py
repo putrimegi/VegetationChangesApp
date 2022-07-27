@@ -136,7 +136,7 @@ mndvi_images = ee.ImageCollection([
 
 
 #Thumbnail
-parameter = {'min':0, 'max':1, 'palette':['e81410',  'f0fc0a',  '30bf21', '198f0d']}
+parameter = {'min':0, 'max':1, 'palette':['e81410',  'f0fc0a',  '30bf21', '0c6921']}
 #Map.addLayer(mndvi_images,parameter,"MNDVI")
 
 #Menambahkan file shp
