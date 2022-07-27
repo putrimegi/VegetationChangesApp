@@ -14,7 +14,7 @@ This timelapse showed vegetation changes from 2000-2021 on Kalimantan Island
 )
 expander = st.expander("See explanation")
 expander.write("""
-   This series of shots for the time-lapse .gif were taken by Terra and Aqua [MODIS Nadir BRDF-Adjusted Reflectance Daily 500m](https://lpdaac.usgs.gov/products/mcd43a4v006/) from *January 1, 2001* to *December 31, 2021* while on the International Space Station. The dataset is produced daily using 16 days of MODIS satellite data at a resolution of 500 meters (m). 
+   This series of shots for the time-lapse .gif was taken by Terra and Aqua [MODIS Nadir BRDF-Adjusted Reflectance Daily 500m](https://lpdaac.usgs.gov/products/mcd43a4v006/) from *January 1, 2001,* to *December 31, 2021,* while on the International Space Station. The dataset produces daily using 16 days of MODIS satellite data at a resolution of 500 meters (m). 
 """
   )
 
