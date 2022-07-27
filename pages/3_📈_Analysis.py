@@ -16,14 +16,24 @@ on Kalimantan island, Indonesia in 2000-2021
 )
 st.markdown(
 """
-("![](https://i.postimg.cc/CLc2jBVD/Area-of-Vegetation.jpg)
-
+![](https://i.postimg.cc/CLc2jBVD/Area-of-Vegetation.jpg)
+"""
+)
+st.markdown(
+"""
+![](https://i.postimg.cc/CLc2jBVD/Area-of-Vegetation.jpg)
 """
 )
 st.subheader("Vegetation changes in a coal area")
 st.markdown(
 """
-1. coal image (PT)
+PT. Kaltim Prima Coal (KCP)
+st.markdown(
+"""
+![](https://i.postimg.cc/tRFQVtkM/7.jpg)
+"""
+)
+
 2. description (coal)
 """
 )
