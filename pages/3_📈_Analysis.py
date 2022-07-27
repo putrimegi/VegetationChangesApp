@@ -32,20 +32,31 @@ st.markdown(
 """
 """
 )
-st.subheader("📍 PT. Kaltim Prima Coal (KCP)")
+st.markdown(
+"""
+📍 PT. Kaltim Prima Coal (KCP)
+"""
+)
 st.markdown(
 """
 ![](https://i.postimg.cc/tRFQVtkM/7.jpg)
 """
 )
-st.subheader("📍 PT. Adaro Indonesia (AI) (left) & PT.Kideco Jaya Agung (right)")
+st.markdown(
+"""
+📍 PT. Adaro Indonesia (AI) (left) & PT.Kideco Jaya Agung (right)
+"""
+)
 st.markdown(
 """
 ![](https://i.postimg.cc/8PyyFj2Y/8.jpg)
 """
 )
-
-st.subheader("📍 PT. Berau Coal")
+st.markdown(
+"""
+📍 PT. Berau Coal
+"""
+)
 st.markdown(
 """
 ![](https://i.postimg.cc/Zqj0ZzB6/9.jpg)
