@@ -3,7 +3,7 @@ import leafmap.foliumap as leafmap
 
 st.set_page_config(layout="wide")
 
-st.header("Timelapse")
+st.header("Timelapse of Vegetation Changes on Kalimantan Island")
 #st.subheader("This timelapse showed vegetation changes from 2000-2021 on Kalimantan Island")
 
 st.markdown (
