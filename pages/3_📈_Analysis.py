@@ -18,7 +18,6 @@ st.markdown(
 ![](https://i.postimg.cc/CLc2jBVD/Area-of-Vegetation.jpg)
 """
 )
-st.image(image, caption='Sunrise by the mountains')
 expander = st.expander("See explanation")
 expander.write("""
 The graph above shows the total area of four vegetation classes on the island of Kalimantan from 2000 to 2021. The no vegetation and slightly density classes rarely experience small changes, the moderately density class is decreasing, and the high density class is increasing.
