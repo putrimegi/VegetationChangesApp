@@ -21,7 +21,7 @@ st.header("Map of Vegetation Change on Kalimantan Island with MODIS Satellite Im
 st.markdown(
   """
   This application was created to display vegetation changes on Kalimantan Island, Indonesia, using the MNDVI algorithm from 2000-2022 years
-based on [Effects of standing litter on the biophysical interpretation of plant canopies with spectral indices](https://www.sciencedirect.com/science/article/abs/pii/0034425795001980) with Satellite Imagery MODIS (MODIS/006/MCD43A4).
+based on [Effects of standing litter on the biophysical interpretation of plant canopies with spectral indices](https://www.sciencedirect.com/science/article/abs/pii/0034425795001980) with Satellite Imagery MODIS *MODIS/006/MCD43A4*.
   """
 )
 
