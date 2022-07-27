@@ -28,7 +28,7 @@ with st.expander("See source code"):
             x="Longitude",
             y="Latitude",
             color_column='Type',
-            icon_names=['gear', 'map', 'leaf', 'globe'],
+            icon_names=['gear', 'map'],
             spin=True,
             add_legend=True,
         )
