@@ -39,7 +39,7 @@ st.markdown(
 )
 st.markdown(
 """
-![](https://i.postimg.cc/tRFQVtkM/7.jpg)
+![](https://i.postimg.cc/mDwcNbc5/7.jpg)
 """
 )
 st.markdown(
@@ -49,7 +49,7 @@ st.markdown(
 )
 st.markdown(
 """
-![](https://i.postimg.cc/8PyyFj2Y/8.jpg)
+![](https://i.postimg.cc/hGnPCkqW/8.jpg)
 """
 )
 st.markdown(
@@ -59,7 +59,7 @@ st.markdown(
 )
 st.markdown(
 """
-![](https://i.postimg.cc/Zqj0ZzB6/9.jpg)
+![](https://i.postimg.cc/K8mxyn4C/9.jpg)
 """
 )
 expander = st.expander("See explanation")
