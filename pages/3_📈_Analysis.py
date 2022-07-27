@@ -68,7 +68,7 @@ expander.write("""
 """
 )
 
-st.subheader("📌 Vegetation Changes")
+st.subheader("📌 Distribution of Oil and Palm Plantations  in Kalimantan")
 st.markdown(
 """
 ![](https://i.postimg.cc/3R3FRhx1/pnas-1704728114fig01.jpg) 
