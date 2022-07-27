@@ -8,7 +8,7 @@ st.set_page_config(layout="wide")
 st.title('Demo')
 st.markdown(
 """
-See this video demonstration of our web apps created using [streamlit](https://streamlit.io/) and [leafmapapp](https://leafmap.org/) below to learn *How to use and load our vegetation maps* on [Kalimantan Island](https://id.wikipedia.org/wiki/Kalimantan).
+See this video demonstration of our web apps created using [streamlit](https://streamlit.io/) and [leafmapapp](https://leafmap.org/) below to learn *How to use and load our Vegetation Maps* on [Kalimantan Island](https://id.wikipedia.org/wiki/Kalimantan).
 """
 )
 
