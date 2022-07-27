@@ -9,6 +9,7 @@ st.header("Timelapse")
 st.markdown (
 """
 This timelapse showed vegetation changes from 2000-2021 on Kalimantan Island
+st.empty() 
 ![Timelapse Vegetasi Pulau Kalimantan](https://media.giphy.com/media/Ey56FW3ui2TZ2vIe6y/giphy.gif)
 """
 )
