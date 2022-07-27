@@ -20,7 +20,7 @@ st.markdown(
 )
 st.markdown(
 """
-The graph above shows the total area of four vegetation classes on the island of Borneo from 2000 to 2021. The no vegetation and slightly density classes rarely experience small changes, the moderately density class is decreasing, and the high density class is increasing.
+The graph above shows the total area of four vegetation classes on the island of Kalimantan from 2000 to 2021. The no vegetation and slightly density classes rarely experience small changes, the moderately density class is decreasing, and the high density class is increasing.
 """
 )
 st.markdown(
@@ -53,7 +53,7 @@ st.markdown(
 )
 st.markdown(
 """
-description (coal)
+The island of Kalimantan is famous for it's mineral wealth and many mining industries operate. Through the picture above, the increase in a mining areas from 2000 to 2021 can be seen.
 """
 )
 st.subheader("📌 Vegetation Changes")
