@@ -174,7 +174,7 @@ years = ee.List.sequence(start_year, end_year)
 year_list = years.getInfo()
 images = years.map(tresholdfunc)
 
-for index in range(0, 23):
+for index in range(0, 22):
     img = ee.Image(images.get(index))
     image = img.clip(Pulau_Kalimantan)
     threshold1 = image.updateMask(image.gte(-1.00).And(image.lte(0.20)).selfMask())
