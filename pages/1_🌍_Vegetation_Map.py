@@ -16,15 +16,12 @@ credentials = ee.ServiceAccountCredentials(service_account, 'kp-putri-megi-86d98
 ee.Initialize(credentials)
 # In[2]:
 
-st.header("Peta Persebaran Vegetasi Pulau Kalimantan")
+st.header("Map of Vegetation Change on Kalimantan Island with MODIS Satellite Image")
 
 st.markdown(
   """
-  Paragraf 1
-  
-  Paragraf 2
-  
-  Paragraf 3
+  This application was created to display vegetation changes on Kalimantan Island, Indonesia, using the MNDVI algorithm from 2000-2022 years
+based on [Effects of standing litter on the biophysical interpretation of plant canopies with spectral indices](https://www.sciencedirect.com/science/article/abs/pii/0034425795001980) with Satellite Imagery MODIS (MODIS/006/MCD43A4).
   """
 )
 
