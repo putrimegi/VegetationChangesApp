@@ -16,6 +16,7 @@ st.markdown(
 st.markdown(
 """
 ![](https://i.postimg.cc/CLc2jBVD/Area-of-Vegetation.jpg)
+st.image(image, caption='Sunrise by the mountains')
 """
 )
 expander = st.expander("See explanation")
