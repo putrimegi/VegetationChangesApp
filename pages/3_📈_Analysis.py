@@ -19,11 +19,6 @@ st.markdown(
 ![](https://i.postimg.cc/CLc2jBVD/Area-of-Vegetation.jpg)
 """
 )
-st.markdown(
-"""
-![](https://i.postimg.cc/CLc2jBVD/Area-of-Vegetation.jpg)
-"""
-)
 st.subheader("Vegetation changes in a coal area")
 st.markdown(
 """
@@ -33,6 +28,36 @@ PT. Kaltim Prima Coal (KCP)
 st.markdown(
 """
 ![](https://i.postimg.cc/tRFQVtkM/7.jpg)
+"""
+)
+st.markdown(
+"""
+2. description (coal)
+"""
+)
+st.markdown(
+"""
+PT. Adaro Indonesia (AI) (left) & PT.Kideco Jaya Agung (right)
+"""
+)
+st.markdown(
+"""
+![](https://i.postimg.cc/8PyyFj2Y/8.jpg)
+"""
+)
+st.markdown(
+"""
+2. description (coal)
+"""
+)
+st.markdown(
+"""
+PT. Berau Coal
+"""
+)
+st.markdown(
+"""
+![](https://i.postimg.cc/Zqj0ZzB6/9.jpg)
 """
 )
 st.markdown(
