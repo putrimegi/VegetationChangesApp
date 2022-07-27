@@ -5,6 +5,7 @@ st.set_page_config(layout="wide")
 
 st.header("Timelapse")
 #st.subheader("This timelapse showed vegetation changes from 2000-2021 on Kalimantan Island")
+
 st.markdown (
 """
 This timelapse showed vegetation changes from 2000-2021 on Kalimantan Island
@@ -14,6 +15,8 @@ This timelapse showed vegetation changes from 2000-2021 on Kalimantan Island
 
 st.markdown (
 """
+This series of shots for the time-lapse .gif were taken by Terra and Aqua *MODIS/006/MCD43A4* or called [MODIS Nadir BRDF-Adjusted Reflectance Daily 500m](https://lpdaac.usgs.gov/products/mcd43a4v006/)from *January 1, 2001* to *December 31, 2021* while on the International Space Station. The dataset is produced daily using 16 days of MODIS satellite data at a resolution of 500 meters (m). 
+
 
 """
   )
