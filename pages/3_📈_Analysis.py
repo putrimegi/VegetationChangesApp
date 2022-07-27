@@ -8,10 +8,9 @@ st.markdown(
 """
 """
 )
-st.subheader("📌 Graph of changes in the area of vegetation")
+st.header("📌 Graph of changes in the area of vegetation")
 st.markdown(
 """
-on Kalimantan island, Indonesia in 2000-2021
 """
 )
 st.markdown(
@@ -19,12 +18,21 @@ st.markdown(
 ![](https://i.postimg.cc/CLc2jBVD/Area-of-Vegetation.jpg)
 """
 )
-st.subheader("📌 Vegetation Changes in a Coal Area")
 st.markdown(
 """
-📍 PT. Kaltim Prima Coal (KCP)
+The graph above shows the total area of four vegetation classes on the island of Borneo from 2000 to 2021. The no vegetation and slightly density classes rarely experience small changes, the moderately density class is decreasing, and the high density class is increasing.
 """
 )
+st.markdown(
+"""
+"""
+)
+st.header("📌 Vegetation Changes in a Coal Area")
+st.markdown(
+"""
+"""
+)
+st.subheader(📍 PT. Kaltim Prima Coal (KCP)")
 st.markdown(
 """
 ![](https://i.postimg.cc/tRFQVtkM/7.jpg)
@@ -32,14 +40,9 @@ st.markdown(
 )
 st.markdown(
 """
-2. description (coal)
 """
 )
-st.markdown(
-"""
-📍 PT. Adaro Indonesia (AI) (left) & PT.Kideco Jaya Agung (right)
-"""
-)
+st.subheader(📍 PT. Adaro Indonesia (AI) (left) & PT.Kideco Jaya Agung (right)")
 st.markdown(
 """
 ![](https://i.postimg.cc/8PyyFj2Y/8.jpg)
@@ -47,14 +50,9 @@ st.markdown(
 )
 st.markdown(
 """
-2. description (coal)
 """
 )
-st.markdown(
-"""
-📍 PT. Berau Coal
-"""
-)
+st.subheader(📍 PT. Berau Coal")
 st.markdown(
 """
 ![](https://i.postimg.cc/Zqj0ZzB6/9.jpg)
@@ -62,7 +60,7 @@ st.markdown(
 )
 st.markdown(
 """
-2. description (coal)
+description (coal)
 """
 )
 st.subheader("📌 Vegetation Changes")
