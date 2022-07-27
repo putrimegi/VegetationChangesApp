@@ -35,7 +35,8 @@ st.markdown(
 ![](https://i.postimg.cc/tRFQVtkM/7.jpg)
 """
 )
-
+st.markdown(
+"""
 2. description (coal)
 """
 )
