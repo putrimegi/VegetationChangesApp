@@ -28,6 +28,8 @@ st.subheader("Vegetation changes in a coal area")
 st.markdown(
 """
 PT. Kaltim Prima Coal (KCP)
+"""
+)
 st.markdown(
 """
 ![](https://i.postimg.cc/tRFQVtkM/7.jpg)
