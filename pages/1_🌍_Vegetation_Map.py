@@ -206,7 +206,6 @@ legend_dict = {
 
 Map.add_legend(legend_title="Tingkat Kerapatan Vegetasi", legend_dict=legend_dict, position='bottomleft')
 
-
 # In[10]:
 
 
@@ -247,6 +246,10 @@ Map.add_legend(legend_title="Tingkat Kerapatan Vegetasi", legend_dict=legend_dic
 #Map.centerObject(study_area, 5)
 Map.to_streamlit()
 
-
+st.markdown(
+"""
+![](https://i.postimg.cc/SRp35SYL/LEGEND.png)
+"""
+)
 
 
