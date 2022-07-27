@@ -16,7 +16,7 @@ credentials = ee.ServiceAccountCredentials(service_account, 'kp-putri-megi-86d98
 ee.Initialize(credentials)
 # In[2]:
 
-st.header("Map of Vegetation Change on Kalimantan Island with MODIS Satellite Image")
+st.header("Map of Vegetation Change on Kalimantan Island")
 
 st.markdown(
   """
