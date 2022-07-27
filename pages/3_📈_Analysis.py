@@ -76,6 +76,7 @@ st.markdown(
 )
 expander = st.expander("See explanation")
 expander.write("""
-  Changes in vegetation every year are increasing. This change is presumably due to land clearing for plantations, timber industries, and other industries that utilize natural resources in Kalimantan. The image above is a map of the oil palm plantation area in 2017. The plantation areas are spread across the island of Kalimantan. Image sourced from [Kimberly M. Carlson,2017](https://www.pnas.org/doi/10.1073/pnas.1704728114#fig01)
+  Changes in vegetation every year are increasing. This change is presumably due to land clearing for plantations, timber industries, and other industries that utilize natural resources in Kalimantan. The image above is a map of the oil palm plantation area in 2017. The plantation areas are spread across the island of Kalimantan. 
+Image sourced from [Kimberly M. Carlson,2017](https://www.pnas.org/doi/10.1073/pnas.1704728114#fig01)
 """
 )
