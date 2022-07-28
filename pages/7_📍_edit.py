@@ -1,19 +1,33 @@
 import streamlit as st
-import leafmap.foliumap as leafmap
+import ee
+import numpy as np
+import geemap
+import pandas as pd
+
+service_account = 'keygoogleearthengine@kp-putri-megi.iam.gserviceaccount.com'
+credentials = ee.ServiceAccountCredentials(service_account, 'kp-putri-megi-86d984e6c787.json')
+ee.Initialize(credentials)
 
 st.set_page_config(layout="wide")
 
-markdown = """
-Web App URL: <https://template.streamlitapp.com>
-GitHub Repository: <https://github.com/giswqs/streamlit-multipage-template>
-"""
-
-st.sidebar.title("About")
-st.sidebar.info(markdown)
-logo = "https://i.imgur.com/UbOXYAU.png"
-st.sidebar.image(logo)
-
 st.title("Marker Cluster")
+
+Map = geemap.Map()
+Map.setCenter(114.0, 0.0, 5)
+
+marks = 'Database_Titik_Lokasi_Kalimantan.csv'
+
+Map.add_points_from_xy(
+    marks,
+    x="longitude",
+    y="latitude",
+    #color_column='region',
+    icon_names=['gear', 'map'],
+    spin=True,
+    add_legend=True,
+)
+
+Map.to_streamlit()
 
 # with st.expander("See source code"):
 #     with st.echo():
