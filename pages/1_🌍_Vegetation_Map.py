@@ -248,7 +248,7 @@ Map.to_streamlit()
 
 st.markdown(
 """
-![](https://i.postimg.cc/ZqMbQDqm/legend.png)
+![](https://i.postimg.cc/g0hwvZdm/legend.png)
 """
 )
 
