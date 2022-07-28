@@ -42,11 +42,19 @@ with coll3:
         """
         Megivareza Putri Hanansyah
         03311940000041
-        varezmegi@gmail.com    
+        varezamegi@gmail.com    
         [LinkedIn](https://www.linkedin.com/in/megivareza-putri-hanansyah-b6b4b720a/) | [Instagram](https://instagram.com/megivareza?igshid=YmMyMTA2M2Y=)
         """
     )
 
+st.markdown(
+"""
+Adviser :                                                                              
+1. Hartanto Sanjaya, S.Si., MSc                                                        
+2. Lalu Muhamad Jaelani, ST, M.Sc, Ph.D
+"""
+)
+    
     st.markdown(
 """
 """
