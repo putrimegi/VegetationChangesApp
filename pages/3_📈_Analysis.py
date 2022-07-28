@@ -22,6 +22,7 @@ st.markdown(
 """
 """
 )
+
 marks = 'Database_Titik_Lokasi_Kalimantan.csv'
 st.set_page_config(layout="wide")
 
@@ -41,6 +42,7 @@ Map.add_points_from_xy(
 )
 
 Map.to_streamlit()
+
 st.markdown(
 """
 """
