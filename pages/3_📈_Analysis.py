@@ -1,9 +1,46 @@
 import streamlit as st
+import ee
+import numpy as np
+import geemap
+import pandas as pd
 import leafmap.foliumap as leafmap
 
 st.set_page_config(layout="wide")
 
 st.title('Analysis Changes in Vegetation Area')
+st.markdown(
+"""
+"""
+)
+
+st.markdown(
+"""
+"""
+)
+st.header("📌 Map of Lake and Mine Coal Position In Kalimantan")
+st.markdown(
+"""
+"""
+)
+marks = 'Database_Titik_Lokasi_Kalimantan.csv'
+st.set_page_config(layout="wide")
+
+Map = leafmap.Map(center=[-2, 114], zoom=6)
+#Map = geemap.Map()
+#Map.setCenter(114, -6, 6)
+
+Map.add_points_from_xy(
+    marks,
+    x="Longtitude",
+    y="Latitude",
+    color_column='Type',
+    icon_colors=['black','blue'],
+    icon_names=['truck', 'tint'],
+    #spin=True,
+    add_legend=True,
+)
+
+Map.to_streamlit()
 st.markdown(
 """
 """
