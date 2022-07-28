@@ -35,13 +35,14 @@ with coll3:
         Megivareza Putri Hanansyah
         03311940000041
         varezmegi@gmail.com
-        """
-    )
-    st.markdown(
-        """
         [LinkedIn](https://www.linkedin.com/in/megivareza-putri-hanansyah-b6b4b720a/)|[Instagram](https://instagram.com/megivareza?igshid=YmMyMTA2M2Y=)
         """
     )
+#     st.markdown(
+#         """
+#         [LinkedIn](https://www.linkedin.com/in/megivareza-putri-hanansyah-b6b4b720a/)|[Instagram](https://instagram.com/megivareza?igshid=YmMyMTA2M2Y=)
+#         """
+#     )
    
 
 
