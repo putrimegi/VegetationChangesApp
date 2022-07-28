@@ -59,7 +59,7 @@ You can follow us on social media: [GitHub](https://github.com/putrimegi/kerjapr
 )
 st.markdown(
 """
-Web App URL: https://template.streamlitapp.com 
+Web App URL: https://template.streamlitapp.com                                             
 GitHub Repository: https://github.com/giswqs/streamlit-multipage-template
 """
 )
