@@ -5,8 +5,6 @@ import geemap
 import pandas as pd
 import leafmap.foliumap as leafmap
 
-st.set_page_config(layout="wide")
-
 st.title('Analysis Changes in Vegetation Area')
 st.markdown(
 """
