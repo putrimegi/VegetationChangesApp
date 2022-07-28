@@ -3,20 +3,20 @@ import ee
 import numpy as np
 import geemap
 import pandas as pd
-# import leafmap.foliumap as leafmap
+import leafmap.foliumap as leafmap
 
-service_account = 'keygoogleearthengine@kp-putri-megi.iam.gserviceaccount.com'
-credentials = ee.ServiceAccountCredentials(service_account, 'kp-putri-megi-86d984e6c787.json')
-ee.Initialize(credentials)
+#service_account = 'keygoogleearthengine@kp-putri-megi.iam.gserviceaccount.com'
+#credentials = ee.ServiceAccountCredentials(service_account, 'kp-putri-megi-86d984e6c787.json')
+#ee.Initialize(credentials)
 
 marks = 'Database_Titik_Lokasi_Kalimantan.csv'
 st.set_page_config(layout="wide")
 
 st.title("Marker Cluster")
 
-# Map = leafmap.Map(center=[114, 5], zoom=6)
-Map = geemap.Map()
-Map.setCenter(114, -6, 6)
+Map = leafmap.Map(center=[114, -4], zoom=6)
+#Map = geemap.Map()
+#Map.setCenter(114, -6, 6)
 
 Map.add_points_from_xy(
     marks,
