@@ -17,17 +17,17 @@ with col2:
     #st.image("https://static.streamlit.io/examples/cat.jpg")
 
 st.markdown(
-"""
-This web app is maintained by ACE,  
-Remote sensing and Geographic Information Science (GIS) researchers group from Geomatics Engineering, Institute Technology of Sepuluh Nopember. 
+""" 
 """
 )
 
-with col1:
+coll1, coll2, coll3= st.columns(3)
+
+with coll1:
     st.header("Member 1")
     #st.image("https://static.streamlit.io/examples/cat.jpg")
 
-with col3:
+with coll3:
     st.header("Member 2")
     #st.image("https://static.streamlit.io/examples/dog.jpg")
 
