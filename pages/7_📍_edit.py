@@ -16,7 +16,7 @@ st.title("Marker Cluster")
 
 # Map = leafmap.Map(center=[114, 5], zoom=6)
 Map = geemap.Map()
-Map.setCenter(114, 10, 6)
+Map.setCenter(114, -6, 6)
 
 Map.add_points_from_xy(
     marks,
