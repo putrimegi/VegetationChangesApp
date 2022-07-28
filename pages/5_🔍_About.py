@@ -33,7 +33,7 @@ with coll3:
         """
         Megivareza Putri Hanansyah
         03311940000041
-        varezamegi@gmail.com
+        email : varezamegi@gmail.com
         instagram : @megivareza
         Linked in : megivareza
         """
