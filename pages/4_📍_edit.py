@@ -5,6 +5,7 @@ import geemap
 import pandas as pd
 import leafmap.foliumap as leafmap
 
+st.set_page_config(layout="wide")
 #service_account = 'keygoogleearthengine@kp-putri-megi.iam.gserviceaccount.com'
 #credentials = ee.ServiceAccountCredentials(service_account, 'kp-putri-megi-86d984e6c787.json')
 #ee.Initialize(credentials)
@@ -24,7 +25,6 @@ st.markdown(
 """
 """
 )
-st.set_page_config(layout="wide")
 
 marks = 'Database_Titik_Lokasi_Kalimantan.csv'
 
