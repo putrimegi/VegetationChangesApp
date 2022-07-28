@@ -19,8 +19,8 @@ marks = 'Database_Titik_Lokasi_Kalimantan.csv'
 
 Map.add_points_from_xy(
     marks,
-    x="longitude",
-    y="latitude",
+    x="Longitude",
+    y="Latitude",
     #color_column='region',
     icon_names=['gear', 'map'],
     spin=True,
