@@ -29,6 +29,7 @@ with coll1:
 
 with coll3:
     st.subheader("Member 2")
+    st.image("https://i.postimg.cc/CLDfTLFr/Jurnalistik-Megivareza-Putri-Hanansyah-03311940000041.jpg")
     st.markdown(
         """
         Megivareza Putri Hanansyah
@@ -36,12 +37,12 @@ with coll3:
         varezmegi@gmail.com
         """
     )
-     st.markdown(
+    st.markdown(
         """
         [LinkedIn](https://www.linkedin.com/in/megivareza-putri-hanansyah-b6b4b720a/)|[Instagram](https://instagram.com/megivareza?igshid=YmMyMTA2M2Y=)
         """
     )
-    st.image("https://i.postimg.cc/CLDfTLFr/Jurnalistik-Megivareza-Putri-Hanansyah-03311940000041.jpg")
+   
 
 
 st.header("batas bawah")
