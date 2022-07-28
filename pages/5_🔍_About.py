@@ -29,7 +29,16 @@ with coll1:
 
 with coll3:
     st.header("Member 2")
-    #st.image("https://static.streamlit.io/examples/dog.jpg")
+    st.markdown(
+        """
+        Megivareza Putri Hanansyah
+        03311940000041
+        varezamegi@gmail.com
+        instagram : @megivareza
+        Linked in : megivareza
+        """
+    )
+    #st.image("https://i.postimg.cc/CLDfTLFr/Jurnalistik-Megivareza-Putri-Hanansyah-03311940000041.jpg")
 
 
 st.header("batas bawah")
