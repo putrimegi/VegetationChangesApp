@@ -13,7 +13,7 @@ st.set_page_config(layout="wide")
 st.title("Marker Cluster")
 
 Map = geemap.Map()
-Map.setCenter(114.0, -5.0, 6)
+Map.setCenter(114.0, 5.0, 6)
 
 marks = 'Database_Titik_Lokasi_Kalimantan.csv'
 
