@@ -9,15 +9,14 @@ service_account = 'keygoogleearthengine@kp-putri-megi.iam.gserviceaccount.com'
 credentials = ee.ServiceAccountCredentials(service_account, 'kp-putri-megi-86d984e6c787.json')
 ee.Initialize(credentials)
 
+marks = 'Database_Titik_Lokasi_Kalimantan.csv'
 st.set_page_config(layout="wide")
 
 st.title("Marker Cluster")
 
 # Map = leafmap.Map(center=[114, 5], zoom=6)
 Map = geemap.Map()
-Map.setCenter(114.0, 5.0, 6)
-
-marks = 'Database_Titik_Lokasi_Kalimantan.csv'
+Map.setCenter(114, 10, 6)
 
 Map.add_points_from_xy(
     marks,
@@ -30,7 +29,7 @@ Map.add_points_from_xy(
     add_legend=True,
 )
 
-Map.to_streamlit(height=700)
+Map.to_streamlit()
 
 # with st.expander("See source code"):
 #     with st.echo():
