@@ -52,20 +52,17 @@ with coll3:
 """
 )
     
-colll1, colll2, colll3= st.columns(3)
-
-with colll2:
-    st.markdown(
-        """
-        You can follow us on social media: [GitHub](https://github.com/putrimegi/kerjapraktek)
-        """
-    )
-    st.markdown(
-        """
-        Web App URL: https://template.streamlitapp.com 
-        GitHub Repository: https://github.com/giswqs/streamlit-multipage-template
-        """
-    )
+st.markdown(
+"""
+You can follow us on social media: [GitHub](https://github.com/putrimegi/kerjapraktek)
+"""
+)
+st.markdown(
+"""
+Web App URL: https://template.streamlitapp.com 
+GitHub Repository: https://github.com/giswqs/streamlit-multipage-template
+"""
+)
 
 
 
