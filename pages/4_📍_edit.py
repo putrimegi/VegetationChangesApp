@@ -12,7 +12,7 @@ import leafmap.foliumap as leafmap
 marks = 'Database_Titik_Lokasi_Kalimantan.csv'
 st.set_page_config(layout="wide")
 
-st.title("Marker Cluster")
+st.title("ANALISA")
 
 Map = leafmap.Map(center=[-2, 114], zoom=6)
 #Map = geemap.Map()
