@@ -5,6 +5,8 @@ import geemap
 import pandas as pd
 import leafmap.foliumap as leafmap
 
+st.set_page_config(layout="wide")
+
 st.title('Analysis Changes in Vegetation Area')
 st.markdown(
 """
@@ -22,7 +24,6 @@ st.markdown(
 )
 
 marks = 'Database_Titik_Lokasi_Kalimantan.csv'
-st.set_page_config(layout="wide")
 
 Map = leafmap.Map(center=[-2, 114], zoom=6)
 #Map = geemap.Map()
