@@ -1,7 +1,7 @@
 import streamlit as st
 import ee
 import numpy as np
-import geemap
+#import geemap
 import pandas as pd
 import leafmap.foliumap as leafmap
 
@@ -13,7 +13,7 @@ st.set_page_config(layout="wide")
 
 st.title("Marker Cluster")
 
-Map = leafmap.Map(center=[114.0, 5.0], zoom=6)
+Map = leafmap.Map(center=[114, 5], zoom=6)
 #Map = geemap.Map()
 #Map.setCenter(114.0, 5.0, 6)
 
@@ -24,7 +24,7 @@ Map.add_points_from_xy(
     x="Longtitude",
     y="Latitude",
     color_column='Type',
-    icon_colors=['black','blue'],
+    #icon_colors=['black','blue'],
     icon_names=['truck', 'tint'],
     #spin=True,
     add_legend=True,
