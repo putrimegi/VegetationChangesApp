@@ -28,7 +28,7 @@ with coll1:
     st.image("https://i.postimg.cc/CLDfTLFr/Jurnalistik-Megivareza-Putri-Hanansyah-03311940000041.jpg")
     st.markdown(
         """
-        Amalia Putri Rivani
+        Amalia Putri Rivani    
         03311940000026
         amaliarvn@gmail.com
         [LinkedIn](https://www.linkedin.com/in/megivareza-putri-hanansyah-b6b4b720a/) | [Instagram](https://instagram.com/megivareza?igshid=YmMyMTA2M2Y=)
