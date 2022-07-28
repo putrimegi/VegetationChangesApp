@@ -49,7 +49,7 @@ with coll3:
 
 st.markdown(
 """
-Adviser :                               
+Advisor :                               
 1. Hartanto Sanjaya, S.Si., MSc                                                        
 2. Lalu Muhamad Jaelani, ST, M.Sc, Ph.D
 """
