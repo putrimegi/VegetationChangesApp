@@ -12,6 +12,10 @@ Remote sensing and Geographic Information Science (GIS) researchers group from G
 
 col1, col2, col3= st.columns(3)
 
+with col2:
+    st.header("About Us")
+    #st.image("https://static.streamlit.io/examples/cat.jpg")
+
 with col1:
     st.header("Member 1")
     #st.image("https://static.streamlit.io/examples/cat.jpg")
