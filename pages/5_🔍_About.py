@@ -25,7 +25,7 @@ coll1, coll2, coll3= st.columns(3)
 
 with coll1:
     #st.subheader("Member 1")
-    st.image("https://i.postimg.cc/CLDfTLFr/Jurnalistik-Megivareza-Putri-Hanansyah-03311940000041.jpg")
+    st.image("https://i.postimg.cc/65qNkfD5/white-bg-designify.png")
     st.markdown(
         """
         Amalia Putri Rivani    
