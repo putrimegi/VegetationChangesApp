@@ -21,7 +21,7 @@ Map.add_points_from_xy(
     marks,
     x="Longtitude",
     y="Latitude",
-    color_column='region',
+    color_column='Type',
     icon_colors=['black','blue'],
     icon_names=['truck', 'tint'],
     spin=True,
