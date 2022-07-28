@@ -14,7 +14,7 @@ st.set_page_config(layout="wide")
 
 st.title("Marker Cluster")
 
-Map = leafmap.Map(center=[114, -4], zoom=6)
+Map = leafmap.Map(center=[-4, 114], zoom=6)
 #Map = geemap.Map()
 #Map.setCenter(114, -6, 6)
 
