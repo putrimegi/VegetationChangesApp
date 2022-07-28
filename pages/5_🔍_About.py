@@ -31,7 +31,7 @@ with coll1:
         Amalia Putri Rivani    
         03311940000026
         amaliarvn@gmail.com    
-        [LinkedIn](https://www.linkedin.com/in/megivareza-putri-hanansyah-b6b4b720a/) | [Instagram](https://instagram.com/megivareza?igshid=YmMyMTA2M2Y=)
+        [LinkedIn](https://www.linkedin.com/in/amalia-putri-rivani-6315a51b0/) | [Instagram](https://instagram.com/putrijklmn?igshid=YmMyMTA2M2Y=)
         """
     )
 
@@ -47,5 +47,25 @@ with coll3:
         """
     )
 
+    st.markdown(
+"""
+"""
+)
+    
+colll1, colll2, colll3= st.columns(3)
 
-st.header("batas bawah")
+with colll2:
+    st.markdown(
+        """
+        You can follow us on social media: [GitHub](https://github.com/putrimegi/kerjapraktek)
+        """
+    )
+    st.markdown(
+        """
+        Web App URL: https://template.streamlitapp.com 
+        GitHub Repository: https://github.com/giswqs/streamlit-multipage-template
+        """
+    )
+
+
+
