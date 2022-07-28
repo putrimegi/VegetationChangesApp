@@ -16,6 +16,9 @@ with col2:
     st.header("About Us")
     #st.image("https://static.streamlit.io/examples/cat.jpg")
 
+st.markdown(
+)
+
 with col1:
     st.header("Member 1")
     #st.image("https://static.streamlit.io/examples/cat.jpg")
