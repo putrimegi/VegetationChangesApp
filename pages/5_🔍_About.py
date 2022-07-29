@@ -25,24 +25,22 @@ coll1, coll2, coll3= st.columns(3)
 
 with coll1:
     #st.subheader("Member 1")
-    st.image("https://i.postimg.cc/6pcKF60n/white.png")
+    #st.image("https://i.postimg.cc/6pcKF60n/white.png")
     st.markdown(
         """
         Amalia Putri Rivani    
-        03311940000026
-        amaliarvn@gmail.com    
+        03311940000026  
         [LinkedIn](https://www.linkedin.com/in/amalia-putri-rivani-6315a51b0/) | [Instagram](https://instagram.com/putrijklmn?igshid=YmMyMTA2M2Y=)
         """
     )
 
 with coll3:
     #st.subheader("Member 2")
-    st.image("https://i.postimg.cc/CLDfTLFr/Jurnalistik-Megivareza-Putri-Hanansyah-03311940000041.jpg")
+    #st.image("https://i.postimg.cc/CLDfTLFr/Jurnalistik-Megivareza-Putri-Hanansyah-03311940000041.jpg")
     st.markdown(
         """
         Megivareza Putri Hanansyah
-        03311940000041
-        varezamegi@gmail.com    
+        03311940000041   
         [LinkedIn](https://www.linkedin.com/in/megivareza-putri-hanansyah-b6b4b720a/) | [Instagram](https://instagram.com/megivareza?igshid=YmMyMTA2M2Y=)
         """
     )
