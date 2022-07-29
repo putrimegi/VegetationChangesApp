@@ -140,7 +140,7 @@ parameter = {'min':0, 'max':1, 'palette':['e81410',  'f0fc0a',  '30bf21', '084f1
 #Map.addLayer(mndvi_images,parameter,"MNDVI")
 
 #Menambahkan file shp
-pulau_Kalimantan_shp = 'SHP_Kalimantan/Pulau Kalimantan_Clip_Fix.shp'
+pulau_Kalimantan_shp = 'SHP_Kalimantan/Pulau_Kalimantan_Clip.shp'
 Danau_Kalimantan_shp = 'SHP_Kalimantan/Danau_Kalimantan.shp'
 Tambang_Kalimantan_shp = 'SHP_Kalimantan/Tambang_Kalimantan.shp'
 
