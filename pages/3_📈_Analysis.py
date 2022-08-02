@@ -23,7 +23,7 @@ st.markdown(
 """
 )
 
-marks = 'Database_Titik_Lokasi_Kalimantan.csv'
+marks = 'Lake_Coal.csv'
 
 Map = leafmap.Map(center=[-2, 114], zoom=6)
 #Map = geemap.Map()
