@@ -186,7 +186,7 @@ for index in range(0, 22):
     
     stack = ee.ImageCollection.fromImages([threshold1, threshold2, threshold3, threshold4])
     stacking = stack.mosaic()
-    Map.addLayer(stacking, parameter, layer_name, false)
+    Map.addLayer=false(stacking, parameter, layer_name,)
 
 
 # In[9]:
