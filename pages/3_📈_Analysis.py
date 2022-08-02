@@ -34,9 +34,9 @@ Map.add_points_from_xy(
     x="Longtitude",
     y="Latitude",
     color_column='Type',
-    icon_colors=['blue','black'],
-    icon_names=['tint', 'gear'],
-    #spin=True,
+    icon_colors=['black','blue'],
+    icon_names=['gear', 'tint'],
+    #spin=True
     add_legend=True,
 )
 
