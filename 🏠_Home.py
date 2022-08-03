@@ -22,7 +22,7 @@ st.markdown(
 The existence of vegetation is vital and has many benefits, such as producing air, controlling climate, animal habitat, and so on. The presence of vegetation provides a sizeable positive impact on an area. Balance
 the ecosystem will be maintained, such as carbon dioxide and oxygen balance, regulation of groundwater management, improvement of soil physical, chemical, and biological properties, and so on.
 
-Therefore, this website application was made to monitor vegetation changes from year to year on the island of Kalimantan using satellite image data. Based on [W.J.D. van Leeuwen, 1996](https://www.sciencedirect.com/science/article/abs/pii/0034425795001980)
+Therefore, this website application was made to monitor vegetation changes from year to year on the island of Kalimantan using satellite image data.
     """
 )
 
