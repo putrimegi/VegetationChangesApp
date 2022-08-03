@@ -20,8 +20,8 @@ st.header("Map of Vegetation Change on Kalimantan Island")
 
 st.markdown(
   """
-  This application was created to display vegetation changes on Kalimantan Island, Indonesia, using the MNDVI algorithm from 2000-2022 years
-based on the [W.J.D.van Leeuwen,1996](https://www.sciencedirect.com/science/article/abs/pii/0034425795001980) with Satellite Imagery *MODIS/006/MCD43A4*.
+  This application was created to display vegetation changes on Kalimantan Island, Indonesia, using the MNDVI algorithm from 2000-2021 years
+based on the [Liu and Huete,1995](https://ieeexplore.ieee.org/document/8746027) with Satellite Imagery *MODIS/006/MCD43A4*.
   """
 )
 
